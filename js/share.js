@@ -25,10 +25,10 @@
         '<div id="' + id + '" class="article-share-box">',
           '<input class="article-share-input" value="' + url + '">',
           '<div class="article-share-links">',
-            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-            '<a href="http://service.weibo.com/share/share.php?title=' + title + '&url=' + encodedUrl + '&searchPic=true&style=number' + '" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-            '<a href="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '" class="article-share-wechat" target="_blank" title="Wechat"></a>',
+            '<a href="#' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+            '<a href="#' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+            '<a href="#' + title + '&url=' + encodedUrl + '&searchPic=true&style=number' + '" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+            '<a href="#' + encodedUrl + '" class="article-share-wechat" target="_blank" title="Wechat"></a>',
           '</div>',
         '</div>'
       ].join('');
